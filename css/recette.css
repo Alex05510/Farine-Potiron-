@@ -1,0 +1,140 @@
+a.retours {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.back:hover {
+  background-color: var(--accent-color);
+  transition: 0.5s ease;
+}
+.back {
+  width: 10%;
+  padding: 5px;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.commentaire h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.commentaire ul li {
+  border: solid 1px var(--secondary-color);
+  padding: 1rem;
+  width: 20%;
+  margin-left: 1rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.commentaire ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+span.date {
+  color: #bfbbbb;
+}
+
+.recette {
+  text-align: center;
+  margin-top: 2rem;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 20px;
+  padding: 2rem;
+}
+.commentaire {
+  border-top: solid 1px var(--text-color);
+  color: var(--text-color);
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+.commentaire form {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.commentaire form textarea {
+  background-color: var(--background-color);
+}
+.commentaire form button {
+  width: 80px;
+  background-color: var(--tertiary-color);
+  border-radius: 0 15px 15px 0;
+}
+.commentaire p {
+  text-align: center;
+  margin-top: 5rem;
+  font-style: italic;
+  font-size: larger;
+}
+a.like,
+a.dislike {
+  box-shadow: 0 2px 8px rgba(139, 168, 136, 0.15);
+  transition: background 0.3s, box-shadow 0.3s, color 0.3s;
+  border-radius: 12px;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-weight: bold;
+}
+button:hover,
+a.like:hover,
+a.dislike:hover {
+  background-color: var(--accent-color);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(244, 201, 93, 0.25);
+}
+h2.ingr {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.recette ul {
+  list-style: none;
+}
+.userPost {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 2rem;
+  background-color: var(--primary-color);
+  padding: 0.5rem;
+  border-radius: 15px 15px 0 0;
+}
+.recette img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.ingredients {
+  border: solid 1.5px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 15px 15px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.farine_utiliser {
+  text-align: center;
+  border: solid 2px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+a.modifier-commentaire {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+}
+a.modifier-commentaire:hover {
+  background-color: var(--accent-color);
+  color: #fff;
+  transition: 0.5s ease;
+}

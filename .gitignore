@@ -1,0 +1,7 @@
+# Fichiers liés à la BDD, config, session
+library/init.php
+library/bdd.php
+library/session.php
+
+# Dossier de configuration VS Code
+.vscode/

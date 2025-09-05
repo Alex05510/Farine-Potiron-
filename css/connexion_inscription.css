@@ -1,0 +1,40 @@
+form h2 {
+  text-align: center;
+  margin-top: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+
+form {
+  text-align: center;
+  margin-top: 2rem;
+  line-height: 2rem;
+  background-color: var(--primary-color);
+  width: 50%;
+  margin-left: 25%;
+  border-radius: 15px;
+}
+input#identifiant,
+input#mdp,
+input#pseudo,
+input#email {
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+}
+button {
+  border: none;
+  background-color: #ffa500;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+p.error {
+  text-align: center;
+  margin-top: 15px;
+  color: red;
+  font-size: larger;
+  font-style: italic;
+}

@@ -1,0 +1,105 @@
+.aLaUne {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.recette h3,
+p {
+  margin-bottom: 2rem;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.recette {
+  width: 40%;
+  text-align: center;
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: var(--primary-color);
+}
+.derRecettes h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.infos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.infos span {
+  color: #00000087;
+}
+.infos button a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: #000;
+}
+.infos button:hover a img {
+  animation: pulse 0.7s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.infos button:hover {
+  background-color: var(--accent-color);
+}
+.infos button {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+}
+button#voir-farines {
+  border: none;
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+button#voir-farines:hover,
+.perso ul li:hover {
+  background-color: var(--accent-color);
+}
+.perso ul li {
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}
+.search input[type="text"] {
+  padding: 0.5rem 1rem;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.search button {
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--text-color);
+}
+.recherche img {
+  width: 30%;
+  height: 20vh;
+  object-fit: cover;
+}
