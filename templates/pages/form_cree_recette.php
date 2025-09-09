@@ -9,6 +9,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Créez votre propre recette sur Farine & Potiron et partagez-la avec la communauté.">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/cree_recette.css">
     <title>Farine & Potiron - Créer une recette</title>
@@ -28,7 +30,7 @@
         <input type="text" id="chapeau" name="chapeau" required><br>
 
         <label for="description">Description :</label>
-        <textarea id="description" cols="20" rows="10" name="description" required></textarea><br>
+        <textarea id="description" cols="10" rows="10" name="description" required></textarea><br>
 
         <label for="farine">Farine spéciale :</label>
         <select id="farine" name="farine" required>
@@ -43,14 +45,13 @@
         <label for="ingredient">Ingrédients Utilisées</label>
         <input type="text" id="ingredient" cols="20" rows="10" name="ingredient"
             placeholder="ex: 150g sucre, 1g cannelle, 1 noix"><br>
-
         <label for="duree">Durée :</label>
         <input type="text" id="duree" name="duree" required><br>
 
-        <label for="difficulte">Difficulté :</label>
-        <select id="difficulte" name="difficult" required>
-            <option value="facile">très facile</option>
-            <option value="moyenne">facile</option>
+        <label for="difficult">Difficulté :</label>
+        <select id="difficult" name="difficult" required>
+            <option value="très facile">très facile</option>
+            <option value="facile">facile</option>
             <option value="difficile">difficile</option>
         </select><br>
 

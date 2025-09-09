@@ -9,6 +9,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Bienvenue sur Farine & Potiron, le site de partage de recettes originales et gourmandes. Découvrez les dernières créations culinaires de la communauté et inspirez-vous pour cuisiner chez vous !">
     <link rel="stylesheet" href="css/modale.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/home.css">

@@ -9,6 +9,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Gérez votre profil sur Farine & Potiron, modifiez vos informations personnelles et mettez à jour votre photo de profil.">
     <link rel="stylesheet" href="css/profil.css">
     <link rel="stylesheet" href="css/global.css">
     <title>Farine & Potiron - Mon profil</title>

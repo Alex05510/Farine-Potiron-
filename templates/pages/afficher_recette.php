@@ -9,6 +9,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Découvrez une délicieuse recette sur Farine & Potiron, avec des ingrédients, une description et des commentaires de la communauté.">
     <link rel="stylesheet" href="css/recette.css">
     <link rel="stylesheet" href="css/global.css">
     <title>recette</title>

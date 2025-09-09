@@ -9,6 +9,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Inscrivez-vous sur Farine & Potiron pour partager vos recettes et découvrir celles des autres.">
     <link rel="stylesheet" href="css/connexion_inscription.css">
     <link rel="stylesheet" href="css/global.css">
     <title>Farine & Potiron - Inscription</title>

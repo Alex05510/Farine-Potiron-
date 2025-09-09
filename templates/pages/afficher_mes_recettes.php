@@ -24,6 +24,10 @@
             <p class="succes"><?php echo htmlspecialchars($message); ?></p>
             <?php } ?>
             <ul>
+                <?php if (count($recettes) === 0) { ?>
+                <li>Aucune recette pour l'instant.</li>
+                <li>crée en une <a href="cree_recette.php"><u class="lien"><i>ici</i></u></a></li>
+                <?php } ?>
                 <?php foreach ($recettes as $recette): ?>
                 <form method="post" action="modifier_recette.php" enctype="multipart/form-data">
                     <input type="hidden" name="id" value="<?php echo $recette->get('id'); ?>">
@@ -43,8 +47,7 @@
                     <li>
                         <select name="difficult">
                             <option value="facile" <?php if($recette->get('difficult')=='facile') echo 'selected'; ?>>
-                                très
-                                facile</option>
+                                très facile</option>
                             <option value="moyenne" <?php if($recette->get('difficult')=='moyenne') echo 'selected'; ?>>
                                 facile</option>
                             <option value="difficile"
@@ -63,6 +66,7 @@
                     <button type="submit">Enregistrer</button>
                 </form>
                 <?php endforeach; ?>
+
             </ul>
         </section>
     </main>
